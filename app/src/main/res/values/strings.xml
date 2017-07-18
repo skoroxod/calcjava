@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CalcJava</string>
+    <string name="term_hint">Здесь напиши выражение</string>
+    <string name="button_text">Нажми</string>
+</resources>
