@@ -4,9 +4,7 @@ import com.github.kittinunf.result.Result;
 
 import org.junit.Test;
 
-
 import static org.junit.Assert.*;
-import static ru.skbkontur.skoroxod.calcjava.CalculatorKt.Calculate;
 import static ru.skbkontur.skoroxod.calcjava.CalculatorKt.GetNumber;
 import static ru.skbkontur.skoroxod.calcjava.CalculatorKt.GetToken;
 
@@ -18,7 +16,7 @@ import static ru.skbkontur.skoroxod.calcjava.CalculatorKt.GetToken;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
-        Result<String, Exception> res = Calculate("2 + 2");
+//        Result<String, Exception> res = Calculate("2 + 2");
 //        assertTrue(res == Result.Success);
 //        assertEquals("4", res.get());
     }

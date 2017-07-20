@@ -7,9 +7,11 @@ import android.view.View;
 
 import com.github.kittinunf.result.Result;
 
+import java.util.List;
+
 import ru.skbkontur.skoroxod.calcjava.databinding.MainActivityBinding;
 
-import static ru.skbkontur.skoroxod.calcjava.CalculatorKt.Calculate;
+import static ru.skbkontur.skoroxod.calcjava.CalculatorKt.ParseTerms;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClick(View v) {
-        Result<String, Exception> res = Calculate(binding.term.getText().toString());
+        Result<List<String>, Exception> res = ParseTerms(binding.term.getText().toString());
 
 //            binding.result.setText();
 //            binding.term.setError();
